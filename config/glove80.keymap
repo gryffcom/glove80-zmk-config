@@ -243,5 +243,16 @@
 &magic MAGIC 0  &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp BSPC   &kp DEL    &kp LALT   &kp RALT  &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
+
+        num {
+            bindings = <
+&kp F11  &kp F12  &trans  &trans  &trans                                                                     &trans   &trans  &trans  &trans    &trans
+&trans   &trans   &trans  &trans  &trans  &trans                                                  &kp MINUS  &kp DOT  &trans  &trans  &kp LBKT  &kp RBKT
+&none    &trans   &trans  &trans  &trans  &trans                                                  &kp C      &kp N8   &kp N9  &kp X   &kp Y     &kp F
+&trans   &trans   &trans  &trans  &trans  &trans                                                  &kp B      &kp N4   &kp N5  &kp N6  &kp N7    &kp E
+&trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp A      &kp N0   &kp N1  &kp N2  &kp N3    &kp D
+&trans   &trans   &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans             &trans   &trans  &trans  &trans    &trans
+            >;
+        };
     };
 };
